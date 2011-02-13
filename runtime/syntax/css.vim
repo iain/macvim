@@ -1,8 +1,8 @@
 " Vim syntax file
-" Language:	Cascading Style Sheets
-" Maintainer:	Claudio Fleiner <claudio@fleiner.com>
-" URL:		http://www.fleiner.com/vim/syntax/css.vim
-" Last Change:	2010 Jul 28
+" Language:  Cascading Style Sheets
+" Maintainer:  Claudio Fleiner <claudio@fleiner.com>
+" URL:    http://www.fleiner.com/vim/syntax/css.vim
+" Last Change:  2010 Jul 28
 " CSS2 by Nikolai Weibull
 " Full CSS2, HTML4 support by Yeti
 
@@ -29,6 +29,14 @@ syn keyword cssTagName link map menu meta noframes noscript ol optgroup
 syn keyword cssTagName option p param pre q s samp script select small
 syn keyword cssTagName span strike strong style sub sup tbody td
 syn keyword cssTagName textarea tfoot th thead title tr tt ul u var
+
+" HTML 5 tags
+syn keyword cssTagName article aside audio bb canvas command datagrid
+syn keyword cssTagName datalist details dialog embed figure footer
+syn keyword cssTagName header hgroup keygen mark meter nav output
+syn keyword cssTagName progress time ruby rt rp section time video
+syn keyword cssTagName source figcaption
+
 syn match cssTagName "\<table\>"
 syn match cssTagName "\*"
 
